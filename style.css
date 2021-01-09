@@ -1,0 +1,99 @@
+body,html{
+    height:100%;
+    margin:0;
+}
+
+.background{
+    background-image: url("https://i.pinimg.com/originals/0f/88/3e/0f883e6f5db348671c1e26a7dfd2e5f3.gif");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#frontName{
+    font-family:'Segoe UI';
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding:15% 15% 15% 15%;
+}
+
+.heroSeparate{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    padding: 0% 20%;
+
+}
+
+#frontBreakleft{
+     width: 20%;
+     height: 5px;
+     border-color: rgb(255, 251, 0);
+     background-color: rgb(255, 251, 0);
+     border-radius: 5px;
+     border-top: 0px;
+     padding:0px;
+     margin-top: -90px;
+     border-width: 6px;
+}
+
+.whiteStar{
+    position:relative;
+    margin: 10px;
+    margin-top: -110px;
+    color:rgb(255, 251, 0);
+    display: block;
+    animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+#frontBreakright{
+    width: 20%;
+    height: 5px;
+    border-color: rgb(255, 251, 0);
+    background-color: rgb(255, 251, 0);
+    border-radius: 5px;
+    border-top: 0px;
+    margin-top: -90px;
+    border-width: 6px;
+}
+
+#subscript{
+    font-size: 25px;
+    font-family:'Segoe UI';
+    color: white;
+    text-align: center;
+}
+
+
+
+#page2{
+    background-color: rgb(136, 136, 136);
+    height: 100vh;
+    margin-top:0%;
+    display: block;
+}
+
+#page2Name{
+    position: relative;
+    font-family:'Segoe UI';
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-top: 5%;
+}
+
+#page3{
+    background-color:teal;
+    height: 1000px;
+}
