@@ -100,6 +100,16 @@ body,html{
     text-align:center;
 }
 
+.innerboxContainer{
+    background-color: rgb(66, 66, 66);
+    border-radius: 25px;
+    width: 80%;
+    height: 70%;
+    transform: translate(50% 50%);
+    margin-top:13%;
+    left:50%;
+}
+
 /* --------------------------------------------------- ABOUT ME PAGE --------------------------------------------------- */
 
 #page3{
