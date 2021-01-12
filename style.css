@@ -3,21 +3,25 @@ body,html{
     margin:0;
 }
 
+/* --------------------------------------------------- HERO PAGE --------------------------------------------------- */
+
 .background{
     background-image: url("https://i.pinimg.com/originals/0f/88/3e/0f883e6f5db348671c1e26a7dfd2e5f3.gif");
     height:100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #frontName{
+    position: absolute;
     font-family:'Segoe UI';
     text-align: center;
     font-size: 40px;
     color: rgb(255, 255, 255);
-    padding:15% 15% 15% 15%;
 }
 
 .heroSeparate{
@@ -75,25 +79,26 @@ body,html{
     text-align: center;
 }
 
-
+/* --------------------------------------------------- PORTFOLIO PAGE --------------------------------------------------- */
 
 #page2{
     background-color: rgb(136, 136, 136);
     height: 100vh;
     margin-top:0%;
-    display: block;
+    display: flex;
 }
 
 #page2Name{
-    position: relative;
     font-family:'Segoe UI';
     text-align: center;
     font-size: 40px;
     color: rgb(255, 255, 255);
-    padding-top: 5%;
 }
 
+/* --------------------------------------------------- ABOUT ME PAGE --------------------------------------------------- */
+
 #page3{
+    display: flex;
     background-color:teal;
-    height: 1000px;
+    height: 100vh;
 }
