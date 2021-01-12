@@ -81,16 +81,19 @@ body,html{
 
 /* --------------------------------------------------- PORTFOLIO PAGE --------------------------------------------------- */
 
-#page2{
+.page2{
     background-color: rgb(136, 136, 136);
     height: 100vh;
-    margin-top:0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
+    justify-content: center;
 }
 
 #page2Name{
+    position: absolute;
     font-family:'Segoe UI';
-    text-align: center;
     font-size: 40px;
     color: rgb(255, 255, 255);
 }
