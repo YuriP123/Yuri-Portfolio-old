@@ -151,6 +151,20 @@ body,html{
     width: 400px;
 }
 
+img{
+    position: relative;
+    max-width: 75%;
+    max-height: 75%;
+    transform: translate(75% 75%);
+    left: 20%;
+    top:15%
+}
+.iconBox4 img{
+    max-width: 90%;
+    max-height: 90%;
+    left: 5%
+}
+
 /* --------------------------------------------------- ABOUT ME PAGE --------------------------------------------------- */
 
 #page3{
