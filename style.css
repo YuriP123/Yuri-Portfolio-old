@@ -108,6 +108,47 @@ body,html{
     transform: translate(50% 50%);
     margin-top:13%;
     left:50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;;
+    align-content: space-evenly;
+}
+
+.iconBox1{
+    background-color: paleturquoise;
+    border-radius: 25px;
+    height: 300px;
+    width: 400px;
+}
+.iconBox2{
+    background-color: rgb(250, 101, 101);
+    border-radius: 25px;
+    height: 300px;
+    width: 400px;
+}
+.iconBox3{
+    background-color: rgb(252, 195, 89);
+    border-radius: 25px;
+    height: 300px;
+    width: 400px;
+}
+.iconBox4{
+    background-color: rgb(255, 136, 255);
+    border-radius: 25px;
+    height: 300px;
+    width: 400px;
+}
+.iconBox5{
+    background-color: burlywood;
+    border-radius: 25px;
+    height: 300px;
+    width: 400px;
+}
+.iconBox6{
+    background-color: rgb(146, 255, 124);
+    border-radius: 25px;
+    height: 300px;
+    width: 400px;
 }
 
 /* --------------------------------------------------- ABOUT ME PAGE --------------------------------------------------- */
