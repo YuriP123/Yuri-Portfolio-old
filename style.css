@@ -173,3 +173,39 @@ img{
     height: 100vh;
     justify-content: center;
 }
+
+#page3Name{
+    position: absolute;
+    font-family:'Segoe UI';
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#page3Title{
+    text-align:center;
+}
+
+#p3Body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+}
+
+#aboutImg img{
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 50%;
+}
+
+#p3Paragraph{
+    word-wrap: break-word;
+    width: 400px;
+    shape-outside: url(Yuri.jpg);
+    shape-image-threshold: 0.5;
+    float: left;
+    font-family:'Segoe UI';
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
