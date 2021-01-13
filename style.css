@@ -171,4 +171,5 @@ img{
     display: flex;
     background-color:teal;
     height: 100vh;
+    justify-content: center;
 }
