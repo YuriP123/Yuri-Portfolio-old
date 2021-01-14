@@ -114,6 +114,7 @@ body,html{
     align-content: space-around;
 }
 
+
 .iconBox1{
     background-color: paleturquoise;
     border-radius: 25px;
@@ -204,4 +205,11 @@ img{
     font-family:'Segoe UI';
     color: rgb(255, 255, 255);
     margin-top: 30%;
+}
+
+/* --------------------------------------------------- MOBILE --------------------------------------------------- */
+@media only screen and (max-width: 760px){
+    .innerboxContainer{
+        height: 99%;
+    }
 }
