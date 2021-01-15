@@ -115,41 +115,28 @@ body,html{
 }
 
 
-.iconBox1{
-    background-color: paleturquoise;
+.iconBox{
     border-radius: 25px;
     height: 300px;
     width: 400px;
 }
-.iconBox2{
-    background-color: rgb(250, 101, 101);
-    border-radius: 25px;
-    height: 300px;
-    width: 400px;
+.iconBox:nth-child(1){
+    background-color: blueviolet;
 }
-.iconBox3{
-    background-color: rgb(252, 195, 89);
-    border-radius: 25px;
-    height: 300px;
-    width: 400px;
+.iconBox:nth-child(2){
+    background-color: rgb(43, 198, 226);
 }
-.iconBox4{
-    background-color: rgb(255, 136, 255);
-    border-radius: 25px;
-    height: 300px;
-    width: 400px;
+.iconBox:nth-child(3){
+    background-color: rgb(247, 74, 74);
 }
-.iconBox5{
-    background-color: burlywood;
-    border-radius: 25px;
-    height: 300px;
-    width: 400px;
+.iconBox:nth-child(4){
+    background-color: rgb(86, 247, 148);
 }
-.iconBox6{
-    background-color: rgb(146, 255, 124);
-    border-radius: 25px;
-    height: 300px;
-    width: 400px;
+.iconBox:nth-child(5){
+    background-color: rgb(255, 119, 210);
+}
+.iconBox:nth-child(6){
+    background-color: rgb(250, 252, 127);
 }
 
 img{
@@ -160,10 +147,11 @@ img{
     left: 20%;
     top:15%
 }
-.iconBox4 img{
-    max-width: 90%;
-    max-height: 90%;
-    left: 5%
+
+#img4{
+    width:90%;
+    height:60%;
+    margin-left: -9%;
 }
 
 /* --------------------------------------------------- ABOUT ME PAGE --------------------------------------------------- */
